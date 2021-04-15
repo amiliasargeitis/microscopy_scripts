@@ -1,4 +1,4 @@
-# Processing of single-cell microscopy data
+# Processing of single-cell microscopy data of [Guerra et al. 2021]
 
 The provided script is used to calculate the nuclear-to-cytosolic (N/C) ratio of a fluoscently tagged protein in individual budding yeast cells, as described in [Guerra et al. 2021]. 
 
