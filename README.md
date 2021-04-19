@@ -1,7 +1,7 @@
 # Processing of single-cell microscopy data of [Guerra et al. 2021]
 
-The provided script is used to calculate the nuclear-to-cytosolic (N/C) ratio of a fluoscently tagged protein in individual budding yeast cells, as described in [Guerra et al. 2021]. 
+The provided script is used to calculate the nuclear-to-cytosolic (N/C) ratio of a fluoscently tagged protein in individual budding yeast cells, it also splits each time series into cell cycle traces and aligns them on a relative time scale as described in [Guerra et al. 2021]. 
 
-**Inputs** : 1) a yeast microscopy movie 2) segmentation output from the BudJ plugin of ImageJ
+**Inputs** : 1) a yeast microscopy movie 2) segmentation output from the BudJ plugin of ImageJ 3) a text file with recorded budding karyokinesis events
 
-**Outputs**: 1) N/C ratio calculation for each detected cell at each frame 2) interpolated single-cell traces using a fixed number of time points 3) alignment of single-cell traces at specific cell cycle events (bud appearance and karyokinesis).
+**Outputs**: 1) N/C ratio calculation for each detected cell at each frame 2) interpolated single-cell cell cycle traces using a fixed number of time points 3) alignment of single-cell traces at specific cell cycle events (bud appearance and karyokinesis).
