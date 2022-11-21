@@ -1,4 +1,4 @@
-# Processing of single-cell microscopy data of [Guerra et al. 2021]
+# Processing of single-cell microscopy data of [Guerra et al. 2022]
 
 **CODE: Single_cells_NC_ratio_and_alignment.ipynb**
 
