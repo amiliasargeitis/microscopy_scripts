@@ -6,7 +6,7 @@ The original workflow of [Guerra et al. 2022] used a nuclear fluorescent marker 
 The script requires the following inputs:
 -	A yeast microscopy movie
 -	Segmentation output from the BudJ plugin of ImageJ
--	A text file containing recorded birth, budding and cytokinesis events from the Click_cells plugin implemented on ImageJ
+-	A text file containing recorded birth, budding and cytokinesis events from the Click_cells.ijm plugin for ImageJ
 
 The script produces the following outputs:
 -	N/C ratio calculation for each detected cell at each frame
